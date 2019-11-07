@@ -1,0 +1,15 @@
+{
+  "properties": {
+    "appName": {
+      "type": "string",
+      "minLength": 1,
+      "default": {
+        "$source": "projectName"
+      }
+    },
+    "existingGitRepo": {
+      "type": "boolean",
+      "x-prompt": "Would you like to use an existing git repo?"
+    }
+  }
+}
