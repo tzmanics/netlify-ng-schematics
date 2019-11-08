@@ -1,9 +1,9 @@
 {
   "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
   "schematics": {
-    "netlify-ng-schematics": {
-      "description": "A blank schematic.",
-      "factory": "./netlify-ng-schematics/index#netlifyNgSchematics"
+    "ng-add": {
+      "description": "Add the fantastic Netlify library to the awesome project",
+      "factory": "./ng-add/index#ngAdd"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "name": "netlify-ng-schematics",
   "version": "0.0.0",
-  "description": "A blank schematics",
+  "description": "Netlify schematics",
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "test": "npm run build && jasmine src/**/*_spec.js"
